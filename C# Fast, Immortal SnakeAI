@@ -181,7 +181,7 @@ class Program
                 }
             }
 
-            int u = 730;
+            int u = 720;
             if (p <= food_location && p != -1)
             {
                 if (p == w && snake_positions.Count + skip + w - current - 1 < u && h == 1)
