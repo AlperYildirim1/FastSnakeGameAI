@@ -16,7 +16,7 @@ using System.ComponentModel;
 // In terminal, ones are snake, 2 is food.
 // It can finish the game (usually). add // to Thread.Sleep(); methods in switch (line 287) to see.
 // It can be faster, if u equals (map cells / 2), at worst scenerio snake will move half of the map to reach the food. This is after it grows half of the map so u= (total map cells / 2)  (it can be even faster but complicated)
-
+// But u=392 is bugged
 class Program
 {
     static int[,] old_game = new int[30, 30];
