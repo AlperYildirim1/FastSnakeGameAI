@@ -15,7 +15,7 @@ using System.ComponentModel;
 // Code is chaotic, even simple changes can make it faster but i dont care them too, its just a snake game. If you care, please find a job at FromSoftware.
 // In terminal, ones are snake, 2 is food.
 // It can finish the game (usually). add // to Thread.Sleep(); methods in switch (line 287) to see.
-// It can be faster, if snake can fill all cells until food, dont skip. (So next generated food will not be back of snake's head) (it can be even faster but complicated)
+// It might be faster, if snake can fill all cells until food, dont skip. (So next generated food will not be back of snake's head) (it can be even faster but complicated)
 
 class Program
 {
