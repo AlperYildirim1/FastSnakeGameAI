@@ -15,7 +15,7 @@ using System.ComponentModel;
 // Code is chaotic, even simple changes can make it faster but i dont care them too, its just a snake game. If you care, please find a job at FromSoftware.
 // In terminal, ones are snake, 2 is food.
 // It can finish the game (usually). add // to Thread.Sleep(); methods in switch (line 287) to see.
-// It can be faster, dont skip if snake length > total map cells / 2 add snake_positions.Count < 392 in line 185 and line 216.
+// It can be faster, dont skip if snake length > total map cells / 2 add snake_positions.Count < 392 in line 185 and line 216 for this.
 class Program
 {
     static int[,] old_game = new int[30, 30];
