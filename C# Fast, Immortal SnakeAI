@@ -8,7 +8,7 @@ using System.Data;
 using System.ComponentModel;
 
 
-
+// If we use more than 1 board matrix, it will be faster. We need more paths like board matrix's path. We will need board matrix too.
 // There may be bugs, I'm just a student and this is one of my first codes. (You may see game over instantly when you start the game.Some problems may occur at end of the game that makes the finishing progress slower)
 // add snake_positions.Count < 392 to all if and else ifs except first block to faster finish. Second half will take shorter time.
 // I dont care this bugs. They can be fixed.
