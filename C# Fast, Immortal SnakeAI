@@ -9,8 +9,8 @@ using System.ComponentModel;
 
 
 
-
 // There may be bugs, I'm just a student and this is one of my first codes. (You may see game over instantly when you start the game.Some problems may occur at end of the game that makes the finishing progress slower)
+// add snake_positions.Count < 392 to all if and else ifs except first block to faster finish. Second half will take shorter time.
 // I dont care this bugs. They can be fixed.
 // Code is chaotic, even simple changes can make it faster but i dont care them too, its just a snake game. If you care, please find a job at FromSoftware.
 // In terminal, ones are snake, 2 is food.
